@@ -1,0 +1,25 @@
+<Configuration>
+  <Info Description="Office Professional Plus 2021 (64-bit)" />
+  <Add OfficeClientEdition="64"  SourcePath="G:\">
+    <Product ID="ProPlus2021Retail">
+      <Language ID="tr-tr" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="InfoPath" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Project" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="SharePointDesigner" />
+      <ExcludeApp ID="Visio" /> 
+      <ExcludeApp ID="Skype" />
+      <ExcludeApp ID="Skypeforbusiness" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Outlook" />     
+      <ExcludeApp ID="PowerPoint" />
+      <ExcludeApp ID="OneDrive" />   
+    </Product>
+  </Add>
+  <RemoveMSI />
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
